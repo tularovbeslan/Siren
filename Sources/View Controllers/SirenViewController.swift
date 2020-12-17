@@ -9,7 +9,7 @@
 import UIKit
 
 /// `UIViewController` Extension for Siren
-final class SirenViewController: UIViewController {
+public final class SirenViewController: UIViewController {
     /// This creates a retain cycle.
     /// This is needed to retain the UIAlertController in iOS 13.0+
     var retainedWindow: UIWindow?
