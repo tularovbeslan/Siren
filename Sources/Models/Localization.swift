@@ -116,7 +116,7 @@ public struct Localization {
     /// - Parameters:
     ///   - appName: Overrides the default name of the app. This is optional and defaults to the app that is defined in the `Info.plist`.
     ///   - forceLanguage: The language the alert to which the alert should be set. If `nil`, it falls back to the device's preferred locale.
-    init(appName: String?, andForceLanguageLocalization forceLanguage: Language?) {
+    public init(appName: String?, andForceLanguageLocalization forceLanguage: Language?) {
         if let appName = appName {
             self.appName = appName
         }
